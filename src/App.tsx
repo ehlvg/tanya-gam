@@ -19,6 +19,8 @@ import {
   Text,
 } from "@radix-ui/themes";
 import avatar from "./assets/avatar.png";
+import side from "./assets/side.jpeg";
+
 import { useEffect, useState } from "react";
 import {
   ChevronDownIcon,
@@ -285,7 +287,7 @@ function App() {
                 </Text>
               </Flex>
               <img
-                src="/src/assets/side.jpeg"
+                src={side}
                 alt="Picture of the Tatyana Gamuylo - psychologist"
                 className="side-image"
               />
